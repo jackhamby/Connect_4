@@ -152,20 +152,19 @@ class GameSession:
                 )
         return False
         
-
     def end(self):
         self.running = False
         self.display_win()
 
-
-
     def render(self):
         self.board.render()
 
-
-
-
-
+        
+        
+        
+        
+        
+       
 # Create Game
 session = GameSession()
 
